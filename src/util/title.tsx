@@ -6,6 +6,6 @@ export const setTitle = (): void => {
 
   useEffect(() => {
     const host = settings?.config?.["user.ui.title"] ?? location.hostname;
-    document.title = `${host} | Incus UI`;
+    document.title = `${host} | Urosario Web Services`;
   }, [settings?.config]);
 };

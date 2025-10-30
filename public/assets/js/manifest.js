@@ -3,10 +3,10 @@ var screenshot = window.location.origin + "/ui/assets/img/";
 const manifestElement = document.getElementById("manifest");
 const dynamicManifest = JSON.stringify({
   short_name: "Incus " + window.location.origin,
-  name: "Incus UI - " + window.location.origin,
+  name: "Urosario Web Services - " + window.location.origin,
   icons: [
     {
-      src: window.location.origin + "/ui/assets/img/app-logo.png",
+      src: window.location.origin + "/ui/assets/img/UDR.png",
       type: "image/png",
       sizes: "512x512",
     },

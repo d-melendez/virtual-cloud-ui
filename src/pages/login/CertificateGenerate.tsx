@@ -87,7 +87,7 @@ const CertificateGenerate: FC = () => {
       header={
         <div className="p-panel__header is-sticky">
           <h1 className="p-panel__title">
-              Setup Incus UI
+              Setup Urosario Web Services
           </h1>
         </div>
       }
@@ -202,7 +202,7 @@ const CertificateGenerate: FC = () => {
                 </Col>
                 <Col size={6}>
                   <div className="p-stepped-list__content">
-                    <p>Enjoy Incus UI.</p>
+                    <p>Enjoy Urosario Web Services.</p>
                   </div>
                 </Col>
               </Row>

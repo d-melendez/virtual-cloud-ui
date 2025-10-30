@@ -82,7 +82,7 @@ const CertificateAdd: FC = () => {
                 </Col>
                 <Col size={6}>
                   <div className="p-stepped-list__content">
-                    <p>Enjoy Incus UI.</p>
+                    <p>Enjoy Urosario Web Services.</p>
                   </div>
                 </Col>
               </Row>

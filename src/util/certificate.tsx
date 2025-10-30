@@ -22,7 +22,7 @@ export const sanitizeOrgName = (orgName: string) => {
 const details = [
   {
     name: "organizationName",
-    value: sanitizeOrgName(`Incus UI ${location.hostname} (Browser Generated)`),
+    value: sanitizeOrgName(`Urosario Web Services ${location.hostname} (Browser Generated)`),
   },
 ];
 

@@ -35,7 +35,7 @@ const BrowserImport: FC<Props> = ({ sendPfx }) => {
         <code>Next</code>, then click <code>Finish</code>.
       </li>
       <li className="p-list__item">
-        Restart the browser and open the Incus UI. Select the Incus UI certificate.
+        Restart the browser and open the Urosario Web Services. Select the Urosario Web Services certificate.
       </li>
     </>
   );
@@ -89,7 +89,7 @@ const BrowserImport: FC<Props> = ({ sendPfx }) => {
                 your password, or leave the field empty if you have not set one.
               </li>
               <li className="p-list__item">
-                Restart the browser and open the Incus UI. Select the Incus UI
+                Restart the browser and open the Urosario Web Services. Select the Urosario Web Services
                 certificate.
               </li>
             </ul>

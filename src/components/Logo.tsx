@@ -12,8 +12,8 @@ const Logo: FC<Props> = ({ light }) => {
   const { project, isLoading } = useCurrentProject();
   const { data: settings } = useSettings();
 
-  const src = "/ui/assets/img/incus-logo.svg";
-  const heading = "Incus UI";
+  const src = "/ui/assets/img/ur-logo.svg";
+  const heading = "Urosario Web Services";
 
   const getLogoLink = () => {
     if (isLoading || !project) {
@@ -24,7 +24,7 @@ const Logo: FC<Props> = ({ light }) => {
 
   return (
     <NavLink className="p-panel__logo" to={getLogoLink()}>
-      <img src={src} alt="Incus UI logo" className="p-panel__logo-image" />
+      <img src={src} alt="Urosario Web Services logo" className="p-panel__logo-image" />
       <div
         className={classNames("logo-text p-heading--4", { "is-light": light })}
       >
