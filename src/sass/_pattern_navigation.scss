@@ -4,14 +4,16 @@
   margin-top: 0;
 
   .p-panel__logo-image {
-    height: 36px;
+    height: 56px;
     margin-top: 2px;
     max-width: inherit;
+    transform: scale(1.5);
+    transform-origin: left center;
   }
 
   .logo-text {
     color: $colors--dark-theme--text-default;
-    left: 70px;
+    left: 85px;
     position: absolute;
     top: $spv--x-small;
 
@@ -22,17 +24,18 @@
 
   @include mobile {
     .logo-text {
-      left: 66px;
+      left: 78px;
     }
   }
 
   @include extra-large {
     .p-panel__logo-image {
-      height: 40px;
+      height: 64px;
+      transform: scale(1.6);
     }
 
     .logo-text {
-      left: 80px;
+      left: 95px;
     }
   }
 }
