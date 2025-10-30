@@ -12,7 +12,7 @@ const Logo: FC<Props> = ({ light }) => {
   const { project, isLoading } = useCurrentProject();
   const { data: settings } = useSettings();
 
-  const src = "/ui/assets/img/ur-logo.svg";
+  const src = "/ui/assets/img/ur-logo.png";
   const heading = "Urosario Web Services";
 
   const getLogoLink = () => {
